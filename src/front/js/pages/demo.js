@@ -23,6 +23,6 @@ export const Demo = () => {
 				
 			</div>
 		</>
-		: alert("Usted no tiene acceso a esta vista."))
+		: <div className="header-text text-center"><h1>"Usted no tiene acceso a esta vista."</h1></div>)
 	);
 };
