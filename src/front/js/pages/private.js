@@ -1,11 +1,9 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Link, Navigate, useNavigate } from "react-router-dom";
-
-
-
 import { Context } from "../store/appContext";
 
-export const Demo = () => {
+
+export const Private = () => {
 	const { store, actions } = useContext(Context);
 	const navigate = useNavigate()
 

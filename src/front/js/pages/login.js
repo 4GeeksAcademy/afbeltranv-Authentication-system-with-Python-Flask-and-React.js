@@ -17,7 +17,7 @@ export const Login = () => {
 	return (
 		<div className="text-center mt-5">
 			<h1>Login</h1>
-			{store.auth=== true ? <Navigate to='/demo'/>:
+			{store.auth=== true ? <Navigate to='/private'/>:
 			<div>
 				<input type="email" placeholder="Email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
 				<input type="password" placeholder="Password" value={password} onChange={(e)=>setPassword(e.target.value)}/>
