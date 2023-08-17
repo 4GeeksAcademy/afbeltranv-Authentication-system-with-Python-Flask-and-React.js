@@ -19,7 +19,7 @@ export const Demo = () => {
 	
 		<>
 			<div className="header">
-                <h1 className="header-text text-center">---This is a user's private view---<br/> ---Esta es una vista provada del usuario---</h1>                
+                <h1 className="header-text text-center">---This is a user's private view---<br/> ---Esta es una vista privada del usuario---</h1>                
 				
 			</div>
 		</>
